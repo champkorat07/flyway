@@ -1,0 +1,5 @@
+CREATE TABLE DSN8B10.ACT2
+      (ACTNO    SMALLINT       NOT NULL,
+       ACTKWD   CHAR(6)        NOT NULL,
+       ACTDESC  VARCHAR(20)    NOT NULL,
+       PRIMARY KEY (ACTNO)             );

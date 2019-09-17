@@ -1,0 +1,3 @@
+
+     INSERT INTO PERSON (ID, NAME)
+       VALUES (3, '12345');

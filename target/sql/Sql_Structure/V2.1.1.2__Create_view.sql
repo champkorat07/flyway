@@ -1,0 +1,1 @@
+Create View PERSON_View AS SELECT * FROM PERSON;
