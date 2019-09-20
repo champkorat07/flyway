@@ -1,4 +1,4 @@
-package com.flyway.flywaySPB;
+package com.flyway.flyway;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -17,7 +17,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-public class FlywaySpbApplication implements CommandLineRunner {
+public class DemoFlywayApplication implements CommandLineRunner {
 	@Autowired
 	@Qualifier("flyways")
 	private Flyway flyway;
@@ -37,7 +37,7 @@ public class FlywaySpbApplication implements CommandLineRunner {
 	}
 
 	public static void main(String[] args) {
-		SpringApplication.run(FlywaySpbApplication.class, args).close();
+		SpringApplication.run(DemoFlywayApplication.class, args).close();
 
 	}
 
